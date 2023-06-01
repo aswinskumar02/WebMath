@@ -50,7 +50,7 @@ public class Configuration {
 	}
 
 	@Test(priority = 0)
-	public void f() {
+	public void Optionalfield() {
 		try {
 			Driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[1]/header/div[2]/nav/ul/li[1]/ul/li[1]/a"))
 					.click();
@@ -63,7 +63,7 @@ public class Configuration {
 	}
 
 	@Test(priority = 1)
-	public void fa() {
+	public void Customfield() {
 		try {
 
 			Driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[1]/header/div[2]/nav/ul/li[1]/ul/li[2]/a"))
@@ -106,7 +106,7 @@ public class Configuration {
 	}
 
 	@Test(priority = 2)
-	public void fas() {
+	public void DataImport() {
 		try {
 			Driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[1]/header/div[2]/nav/ul/li[1]/ul/li[3]/a"))
 					.click();
@@ -118,7 +118,7 @@ public class Configuration {
 	}
 
 	@Test(priority = 3)
-	public void fass() {
+	public void Reportingmethod() {
 		try {
 
 			Driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[1]/header/div[2]/nav/ul/li[1]/ul/li[4]/a"))
@@ -142,7 +142,7 @@ public class Configuration {
 	}
 
 	@Test(priority = 4)
-	public void fasa() {
+	public void TerminationReason() {
 		try {
 
 			Driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[1]/header/div[2]/nav/ul/li[1]/ul/li[5]/a"))

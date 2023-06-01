@@ -49,7 +49,7 @@ public class AddEmployee {
 		}
 	}
 	
-	 @Test(priority = 1)
+	 @Test(priority = 0)
 	  public void AddEmployee1() {
 		  try {
 			  File f = new File("Addemployee1.properties");
