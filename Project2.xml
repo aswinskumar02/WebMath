@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+	  <class name="com.project1.orangehrmtest.LoginOrangeTest"/>
+      <class name="com.project2.k8mathtest.K8SelectionTest"/>
+      <class name="com.project2.k8mathtest.PresenceOfTextTest"/>
+      <class name="com.project2.k8mathtest.PrsesnceOfLogoImage"/>
+      <class name="com.project2.k8mathtest.SelectAboutWebMathTest"/>
+      <class name="com.project2.k8mathtest.SelectContactTest"/>
+      <class name="com.project2.k8mathtest.SelectHomeButtonTest"/>
+      <class name="com.project2.k8mathtest.SelectTeachersSavetimewithNutshellMathTest"/>
+      <class name="com.project2.k8mathtest.SelectWhyWebMathTest"/>
+      <class name="com.project2.numberbasicstest.AddTest"/>
+      <class name="com.project2.numberbasicstest.CompareNumberTest"/>
+      <class name="com.project2.numberbasicstest.DivideTest"/>
+      <class name="com.project2.numberbasicstest.MultiplyTest"/>
+      <class name="com.project2.numberbasicstest.NumberLineTest"/>
+      <class name="com.project2.numberbasicstest.PlaceValueTest"/>
+      <class name="com.project2.numberbasicstest.PresenceUnderNumberBasicsTest"/>
+      <class name="com.project2.numberbasicstest.RoundingTest"/>
+      <class name="com.project2.numberbasicstest.SubstractTest"/>
+      <class name="com.project2.ratiostest.PresenceUnderRatioTest"/>
+      <class name="com.project2.ratiostest.WhatsRatioTest"/>
+      <class name="com.project2.ratiostest.ProportionTest"/>
+      <class name="com.project2.fractionstest.CompareFractionTest"/>
+      <class name="com.project2.fractionstest.PresenceUnderFractionTest"/>
+      <class name="com.project2.fractionstest.WhatsFractionTest"/>
+      <class name="com.project2.otherstufftest.CombinationsTest"/>
+      <class name="com.project2.otherstufftest.MetricTest"/>
+     <class name="com.project2.otherstufftest.PracticeYourMathTest"/>
+     <class name="com.project2.otherstufftest.PresenceUnderOtherstuffTest"/>
+     <class name="com.project2.otherstufftest.RectanglesTest"/>
+     <class name="com.project2.otherstufftest.StuffWithTimeTest"/> 
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
