@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+	  <class name="com.project1.orangehrmtest.LoginOrangeTest"/>
+	  <class name="com.project1.EmployeeListTest.AddbuttonTest"/>
+      <class name="com.project1.EmployeeListTest.CheckBoxSelectionTest"/>
+      <class name="com.project1.EmployeeListTest.DropdownListTest"/>
+      <class name="com.project1.EmployeeListTest.PrintListTest"/>
+      <class name="com.project1.EmployeeListTest.SearchEmployeesTest"/>
+      <class name="com.project1.AddEmployeeTest.AddEmployee1Test"/>
+      <class name="com.project1.AddEmployeeTest.CreateLoginDetailsTest"/>
+      <class name="com.project1.ReportTest.AddNewReportTest"/>
+      <class name="com.project1.ReportTest.PrintReportListTest"/>
+      <class name="com.project1.ReportTest.ReportCheckBoxTest"/>
+      <class name="com.project1.ReportTest.SearchReportsTest"/>
+      <class name="com.project1.ConfigurationTest.CustomFieldTest"/>
+      <class name="com.project1.ConfigurationTest.DataImportTest"/>
+      <class name="com.project1.ConfigurationTest.ReportingMethodTest"/>
+      <class name="com.project1.ConfigurationTest.TerminationReasonTest"/>     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
